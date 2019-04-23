@@ -17,7 +17,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		//Decare & Instantiate an Avocado
-		Avocado myAvocado = new Avocado("green", Avocado.enumCondition.squishy, 10);
+		Avocado myAvocado = new Avocado("green", Avocado.enumCondition.fresh, 10);
 		
 		//myEnum e = myEnum.A;
 		//System.out.println(e.toString());
