@@ -12,7 +12,7 @@ package avocado;
 public class Avocado {
 	private String color;
 	enum enumCondition {fresh, ok, squishy, useless};
-	private enumCondition condition;
+	public enumCondition condition;
 	private int weightInGrams;
 	public String getColor() {
 		return color;
